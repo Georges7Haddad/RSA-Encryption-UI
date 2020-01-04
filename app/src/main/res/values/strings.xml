@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RSA</string>
+    <string name="tab_text_1">Algorithm</string>
+    <string name="tab_text_2">Variables</string>
+    <string name="tab_text_3">Method</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="d">d</string>
+    <string name="e">e</string>
+    <string name="phi">phi</string>
+    <string name="n">n</string>
+    <string name="q">q</string>
+    <string name="p">p</string>
+</resources>
