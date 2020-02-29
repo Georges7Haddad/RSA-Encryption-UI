@@ -11,15 +11,16 @@ Method:
 	The third tab is the method part. This tab has an image of the method used in the algorithm. It’s used as a reminder of the method.
 
 
-•	When I click the “Encrypt” button I generate the variables and encrypt the message.
+•	The “Encrypt” button generates the variables and encrypts the message.
 
-•	I generate new variables for each new message.
+•	New variables are created for each new message.
 
 •	Variables tab is empty until a message is encrypted (waiting for variables to be generated).
 
-•	To pass variables from one fragment to another I’m defining them in my MainActivity, setting their values in my Algorithm fragment, and getting them in my Variables fragment.
+•	Variables shared by multiple fragments are defined in the MainActivity. Each fragment can then set or get these 	variables.
 
-•	I used a switch to choose the key size: if on key size = 2048, if off key size = 1024.
+•	The switch is for choosing the key size: if on, key size = 2048
+					 	 if off, key size = 1024.
 
 ![Image of 1](Pictures/1.png)
 ![Image of 2](Pictures/2.png)
